@@ -12,6 +12,7 @@ export default function CharacterViewPage() {
   const dispatch = useAppDispatch();
   const characterId = params.id as string;
   const [activeTab, setActiveTab] = useState<'stats' | 'skills' | 'equipment' | 'spells'>('stats');
+  const [showExportMenu, setShowExportMenu] = useState(false);
 
   const { currentCharacter: character, isLoading, error } = useAppSelector((state) => state.character);
   const { user } = useAppSelector((state) => state.auth);
@@ -63,6 +64,16 @@ export default function CharacterViewPage() {
 
   const savingThrows = character.derivedStats?.savingThrows || {};
 
+  const handleExportJSON = async () => {
+    window.location.href = `/api/characters/${character._id}/export/json`;
+    setShowExportMenu(false);
+  };
+
+  const handleExportMarkdown = async () => {
+    window.location.href = `/api/characters/${character._id}/export/markdown`;
+    setShowExportMenu(false);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -76,10 +87,10 @@ export default function CharacterViewPage() {
               </p>
               <p className="text-blue-100 text-sm mt-1">Campaign: {character.campaign || 'No Campaign'}</p>
             </div>
-            <div className="text-right">
+            <div className="text-right flex gap-2">
               <button
                 onClick={() => router.push(`/characters/${character._id}/edit/abilities`)}
-                className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:bg-blue-50 mr-2"
+                className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:bg-blue-50"
               >
                 ✎ Edit
               </button>
@@ -89,6 +100,30 @@ export default function CharacterViewPage() {
               >
                 🖨️ Print
               </button>
+              <div className="relative">
+                <button
+                  onClick={() => setShowExportMenu(!showExportMenu)}
+                  className="bg-white text-blue-600 px-4 py-2 rounded font-medium hover:bg-blue-50"
+                >
+                  💾 Export ▼
+                </button>
+                {showExportMenu && (
+                  <div className="absolute right-0 mt-1 w-48 bg-white text-gray-800 rounded shadow-lg border border-gray-300 z-20">
+                    <button
+                      onClick={handleExportJSON}
+                      className="block w-full text-left px-4 py-2 hover:bg-blue-50 font-medium"
+                    >
+                      📋 JSON
+                    </button>
+                    <button
+                      onClick={handleExportMarkdown}
+                      className="block w-full text-left px-4 py-2 hover:bg-blue-50 font-medium"
+                    >
+                      📝 Markdown
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
