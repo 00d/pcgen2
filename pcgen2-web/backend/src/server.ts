@@ -12,6 +12,7 @@ import gameRulesRoutes from './routes/gameRules';
 import equipmentRoutes from './routes/equipment';
 import levelingRoutes from './routes/leveling';
 import spellRoutes from './routes/spells';
+import exportRoutes from './routes/exports';
 import { errorHandler } from './middleware/errorHandler';
 import { logger } from './utils/logger';
 
@@ -41,6 +42,7 @@ app.use('/api/game-rules', gameRulesRoutes);
 app.use('/api/equipment', equipmentRoutes);
 app.use('/api/leveling', levelingRoutes);
 app.use('/api/spells', spellRoutes);
+app.use('/api/export', exportRoutes);
 
 // Error handling middleware (must be last)
 app.use(errorHandler);
