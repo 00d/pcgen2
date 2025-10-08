@@ -196,6 +196,26 @@ const characterSchema = new Schema<ICharacter>(
     alignment: { type: String, default: 'Neutral' },
     deity: { type: String, default: '' },
     imageUrl: String,
+    // Phase 5: Leveling and Advancement
+    experience: { type: Number, default: 0 },
+    nextLevelExp: { type: Number, default: 1000 },
+    abilityScoreImprovements: [
+      {
+        level: Number,
+        ability: String, // 'str', 'dex', etc.
+        appliedAt: { type: Date, default: Date.now },
+      },
+    ],
+    levelHistory: [
+      {
+        level: Number,
+        date: { type: Date, default: Date.now },
+        hitPointsGained: Number,
+        skillPointsGained: Number,
+        featsGained: [String],
+        abilitiesGained: [String],
+      },
+    ],
   },
   { timestamps: true }
 );
