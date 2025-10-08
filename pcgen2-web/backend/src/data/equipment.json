@@ -1,0 +1,297 @@
+{
+  "weapons": [
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "type": "weapon",
+      "category": "martial-melee",
+      "cost": "15 gp",
+      "weight": 4,
+      "damage": "1d8",
+      "damageType": "slashing",
+      "criticalRange": "19-20",
+      "criticalMultiplier": "×2",
+      "properties": ["versatile"],
+      "description": "A sword with a long, straight blade designed for slashing or thrusting."
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "type": "weapon",
+      "category": "martial-melee",
+      "cost": "10 gp",
+      "weight": 2,
+      "damage": "1d6",
+      "damageType": "piercing",
+      "criticalRange": "19-20",
+      "criticalMultiplier": "×2",
+      "properties": ["finesse", "light"],
+      "description": "A short blade, useful for close combat."
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "type": "weapon",
+      "category": "simple-melee",
+      "cost": "2 gp",
+      "weight": 1,
+      "damage": "1d4",
+      "damageType": "piercing",
+      "criticalRange": "19-20",
+      "criticalMultiplier": "×2",
+      "properties": ["finesse", "light", "thrown"],
+      "description": "A small blade useful for melee and as a thrown weapon."
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "type": "weapon",
+      "category": "martial-melee",
+      "cost": "30 gp",
+      "weight": 12,
+      "damage": "1d12",
+      "damageType": "slashing",
+      "criticalRange": "20",
+      "criticalMultiplier": "×3",
+      "properties": ["heavy", "two-handed"],
+      "description": "A massive axe requiring two hands to wield."
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "type": "weapon",
+      "category": "martial-ranged",
+      "cost": "75 gp",
+      "weight": 3,
+      "damage": "1d8",
+      "damageType": "piercing",
+      "criticalRange": "20",
+      "criticalMultiplier": "×3",
+      "range": 100,
+      "properties": ["two-handed", "ranged"],
+      "description": "A large bow made of wood and cord, requiring significant strength."
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "type": "weapon",
+      "category": "simple-ranged",
+      "cost": "30 gp",
+      "weight": 2,
+      "damage": "1d6",
+      "damageType": "piercing",
+      "criticalRange": "20",
+      "criticalMultiplier": "×3",
+      "range": 60,
+      "properties": ["two-handed", "ranged"],
+      "description": "A smaller, easier to use bow."
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "type": "weapon",
+      "category": "martial-melee",
+      "cost": "20 gp",
+      "weight": 2,
+      "damage": "1d6",
+      "damageType": "piercing",
+      "criticalRange": "18-20",
+      "criticalMultiplier": "×2",
+      "properties": ["finesse"],
+      "description": "A slender, sharp blade designed for precision."
+    }
+  ],
+  "armor": [
+    {
+      "id": "leather-armor",
+      "name": "Leather Armor",
+      "type": "armor",
+      "armorType": "light",
+      "acBonus": 1,
+      "cost": "5 gp",
+      "weight": 10,
+      "maxDexBonus": null,
+      "armorCheckPenalty": 0,
+      "properties": [],
+      "description": "Armor made of treated leather."
+    },
+    {
+      "id": "studded-leather",
+      "name": "Studded Leather Armor",
+      "type": "armor",
+      "armorType": "light",
+      "acBonus": 3,
+      "cost": "25 gp",
+      "weight": 20,
+      "maxDexBonus": null,
+      "armorCheckPenalty": 0,
+      "properties": [],
+      "description": "Leather armor reinforced with metal studs."
+    },
+    {
+      "id": "chainmail",
+      "name": "Chainmail",
+      "type": "armor",
+      "armorType": "heavy",
+      "acBonus": 5,
+      "cost": "150 gp",
+      "weight": 55,
+      "maxDexBonus": 1,
+      "armorCheckPenalty": -5,
+      "properties": ["noisy"],
+      "description": "Interlocking metal rings forming protective armor."
+    },
+    {
+      "id": "plate-armor",
+      "name": "Plate Armor",
+      "type": "armor",
+      "armorType": "heavy",
+      "acBonus": 8,
+      "cost": "1500 gp",
+      "weight": 65,
+      "maxDexBonus": 1,
+      "armorCheckPenalty": -6,
+      "properties": [],
+      "description": "Full body armor made of shaped metal plates."
+    },
+    {
+      "id": "scale-mail",
+      "name": "Scale Mail",
+      "type": "armor",
+      "armorType": "medium",
+      "acBonus": 4,
+      "cost": "50 gp",
+      "weight": 30,
+      "maxDexBonus": 3,
+      "armorCheckPenalty": -2,
+      "properties": ["noisy"],
+      "description": "Overlapping metal scales attached to a backing."
+    }
+  ],
+  "shields": [
+    {
+      "id": "shield-light-wooden",
+      "name": "Light Wooden Shield",
+      "type": "shield",
+      "shieldType": "light",
+      "acBonus": 1,
+      "cost": "3 gp",
+      "weight": 5,
+      "armorCheckPenalty": 0,
+      "properties": [],
+      "description": "A small wooden shield."
+    },
+    {
+      "id": "shield-heavy-wooden",
+      "name": "Heavy Wooden Shield",
+      "type": "shield",
+      "shieldType": "heavy",
+      "acBonus": 2,
+      "cost": "7 gp",
+      "weight": 15,
+      "armorCheckPenalty": -2,
+      "properties": [],
+      "description": "A large wooden shield providing significant protection."
+    },
+    {
+      "id": "shield-heavy-steel",
+      "name": "Heavy Steel Shield",
+      "type": "shield",
+      "shieldType": "heavy",
+      "acBonus": 2,
+      "cost": "20 gp",
+      "weight": 15,
+      "armorCheckPenalty": -2,
+      "properties": [],
+      "description": "A large steel shield with excellent durability."
+    },
+    {
+      "id": "shield-tower",
+      "name": "Tower Shield",
+      "type": "shield",
+      "shieldType": "tower",
+      "acBonus": 4,
+      "cost": "30 gp",
+      "weight": 45,
+      "armorCheckPenalty": -10,
+      "properties": ["two-handed", "covers-legs"],
+      "description": "An enormous shield covering most of the body."
+    }
+  ],
+  "adventuring-gear": [
+    {
+      "id": "backpack",
+      "name": "Backpack",
+      "type": "gear",
+      "cost": "2 gp",
+      "weight": 2,
+      "capacity": 30,
+      "properties": ["container"],
+      "description": "A woven pack for carrying supplies."
+    },
+    {
+      "id": "rope-50ft",
+      "name": "Rope (50 ft)",
+      "type": "gear",
+      "cost": "1 gp",
+      "weight": 10,
+      "properties": ["utility"],
+      "description": "A 50-foot length of hemp rope."
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "type": "gear",
+      "cost": "0.01 gp",
+      "weight": 1,
+      "properties": ["light-source"],
+      "description": "A torch that provides light for several hours."
+    },
+    {
+      "id": "bedroll",
+      "name": "Bedroll",
+      "type": "gear",
+      "cost": "0.1 gp",
+      "weight": 5,
+      "properties": ["camping"],
+      "description": "A roll of fabric for sleeping."
+    },
+    {
+      "id": "waterskin",
+      "name": "Waterskin",
+      "type": "gear",
+      "cost": "0.1 gp",
+      "weight": 1,
+      "capacity": 4,
+      "properties": ["container"],
+      "description": "A leather skin for carrying water."
+    },
+    {
+      "id": "lantern-bullseye",
+      "name": "Lantern, Bullseye",
+      "type": "gear",
+      "cost": "12 gp",
+      "weight": 3,
+      "properties": ["light-source"],
+      "description": "A lantern with a lens directing light in one direction."
+    },
+    {
+      "id": "cooking-pot",
+      "name": "Cooking Pot",
+      "type": "gear",
+      "cost": "0.5 gp",
+      "weight": 4,
+      "properties": ["utility", "cooking"],
+      "description": "A metal pot for cooking food."
+    },
+    {
+      "id": "rations-1-day",
+      "name": "Rations (1 day)",
+      "type": "gear",
+      "cost": "0.5 gp",
+      "weight": 1,
+      "properties": ["consumable", "food"],
+      "description": "A day's worth of trail rations."
+    }
+  ]
+}

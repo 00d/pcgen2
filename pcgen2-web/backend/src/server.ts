@@ -9,6 +9,9 @@ import { initializeRedis } from './config/redis';
 import authRoutes from './routes/auth';
 import characterRoutes from './routes/characters';
 import gameRulesRoutes from './routes/gameRules';
+import equipmentRoutes from './routes/equipment';
+import levelingRoutes from './routes/leveling';
+import spellRoutes from './routes/spells';
 import { errorHandler } from './middleware/errorHandler';
 import { logger } from './utils/logger';
 
@@ -35,6 +38,9 @@ app.get('/health', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/characters', characterRoutes);
 app.use('/api/game-rules', gameRulesRoutes);
+app.use('/api/equipment', equipmentRoutes);
+app.use('/api/leveling', levelingRoutes);
+app.use('/api/spells', spellRoutes);
 
 // Error handling middleware (must be last)
 app.use(errorHandler);
