@@ -1,4 +1,3 @@
-import { GameDataService } from './gameDataService';
 import { Character as CharacterType } from '../types/character';
 
 /**
@@ -37,14 +36,16 @@ interface HPResult {
 }
 
 export class MulticlassService {
-  private gameDataService = GameDataService;
-
   /**
    * Calculate Base Attack Bonus for multiclass character
    * Pathfinder rule: Use the highest BAB from all classes
    */
-  calculateMulticlassBAB(classes: CharacterClass[], conModifier: number = 0): BABResult {
+  calculateMulticlassBAB(classes: CharacterClass[]): BABResult {
     const perClass: Record<string, number> = {};
+
+    if (classes.length === 0) {
+      return { totalBAB: 0, perClass };
+    }
 
     for (const charClass of classes) {
       const bab = this.calculateBABForClass(charClass.level, charClass.baseAttackBonusProgression);
@@ -254,7 +255,7 @@ export class MulticlassService {
       };
     }
 
-    const classes = character.attributes.classes as CharacterClass[];
+    const classes = character.attributes.classes as unknown as CharacterClass[];
     const conMod = character.attributes.abilityScores.con.base - 10;
     const intMod = character.attributes.abilityScores.int.base - 10;
 

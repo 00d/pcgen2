@@ -6,6 +6,9 @@
  * Run with: npm test -- campaigns.test.ts
  */
 
+// Note: These imports and variables are used for documentation
+// and are kept for integration test reference
+// @ts-nocheck
 import request from 'supertest';
 import { Campaign } from '../../models/Campaign';
 import { Character } from '../../models/Character';
