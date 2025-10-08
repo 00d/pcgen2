@@ -1,12 +1,14 @@
 {
-  "name": "PCGen2 - Character Generator",
-  "short_name": "PCGen2",
-  "description": "A modern web-based character generator for tabletop RPGs",
+  "name": "PCGen 2.0 - Pathfinder Character Generator",
+  "short_name": "PCGen",
+  "description": "Create and manage Pathfinder 1st Edition characters with full offline support",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb",
-  "orientation": "portrait-primary",
+  "theme_color": "#3b82f6",
+  "categories": ["games", "productivity"],
   "icons": [
     {
       "src": "/icon-192x192.png",
@@ -15,10 +17,77 @@
       "purpose": "any"
     },
     {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create Character",
+      "short_name": "New Character",
+      "description": "Create a new Pathfinder character",
+      "url": "/create",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Characters",
+      "short_name": "Characters",
+      "description": "View all your characters",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Campaigns",
+      "short_name": "Campaigns",
+      "description": "View all your campaigns",
+      "url": "/campaigns",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }

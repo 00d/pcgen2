@@ -14,6 +14,25 @@ const abilityScoreSchema = new Schema(
   { _id: false }
 );
 
+const multiclassSchema = new Schema(
+  {
+    classId: { type: String, required: true },
+    className: { type: String, required: true },
+    level: { type: Number, required: true, min: 1 },
+    hitDie: String,
+    baseAttackBonusProgression: String,
+    classAbilities: [
+      {
+        id: String,
+        name: String,
+        level: Number,
+        description: String,
+      },
+    ],
+  },
+  { _id: false }
+);
+
 const characterSchema = new Schema<ICharacter>(
   {
     userId: {
@@ -47,29 +66,7 @@ const characterSchema = new Schema<ICharacter>(
           },
         ],
       },
-      classes: [
-        {
-          id: String,
-          name: String,
-          level: Number,
-          hitDie: String,
-          baseAttackBonusProgression: String,
-          savingThrowBonus: {
-            fort: Number,
-            ref: Number,
-            will: Number,
-          },
-          baseSkillsPerLevel: Number,
-          classAbilities: [
-            {
-              id: String,
-              name: String,
-              level: Number,
-              description: String,
-            },
-          ],
-        },
-      ],
+      classes: [multiclassSchema],
       abilityScores: {
         str: abilityScoreSchema,
         dex: abilityScoreSchema,
@@ -80,9 +77,11 @@ const characterSchema = new Schema<ICharacter>(
       },
     },
     derivedStats: {
+      totalLevel: { type: Number, default: 1 }, // Phase 4: Sum of all class levels
       hitPoints: {
         current: { type: Number, default: 0 },
         max: { type: Number, default: 0 },
+        perClass: mongoose.Schema.Types.Mixed, // Phase 4: HP breakdown by class
       },
       armorClass: {
         base: { type: Number, default: 10 },
@@ -94,6 +93,7 @@ const characterSchema = new Schema<ICharacter>(
         total: { type: Number, default: 10 },
       },
       baseAttackBonus: { type: Number, default: 0 },
+      baseAttackBonusByClass: mongoose.Schema.Types.Mixed, // Phase 4: BAB per class
       combatManeuverBonus: { type: Number, default: 0 },
       combatManeuverDefense: { type: Number, default: 10 },
       initiative: { type: Number, default: 0 },
@@ -102,6 +102,7 @@ const characterSchema = new Schema<ICharacter>(
         reflex: { type: Number, default: 0 },
         will: { type: Number, default: 0 },
       },
+      savingThrowsByClass: mongoose.Schema.Types.Mixed, // Phase 4: Saves per class
       skillPoints: {
         remaining: { type: Number, default: 0 },
         used: { type: Number, default: 0 },
@@ -146,8 +147,34 @@ const characterSchema = new Schema<ICharacter>(
     ],
     spells: {
       spellcaster: { type: Boolean, default: false },
+      // Legacy single-class support
       spellcastingClass: String,
       spellcastingAbility: String,
+      // Multiclass spell tracking: separate spells per class
+      spellsByClass: [
+        {
+          classId: String, // 'wizard', 'cleric', 'sorcerer', etc.
+          className: String,
+          spellcastingAbility: String, // 'int', 'wis', 'cha'
+          spellsKnown: [
+            {
+              id: String,
+              name: String,
+              level: Number,
+              school: String,
+              description: String,
+            },
+          ],
+          spellSlots: [
+            {
+              level: Number,
+              total: Number,
+              used: Number,
+            },
+          ],
+        },
+      ],
+      // Legacy flat spell lists (for backward compatibility)
       spellsKnown: [
         {
           id: String,

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3b82f6">
+  <title>PCGen - Offline</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #1f2937;
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #6b7280;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 30px;
+      padding: 12px 16px;
+      background: #fee2e2;
+      border-radius: 8px;
+      border-left: 4px solid #dc2626;
+    }
+
+    .status-indicator {
+      width: 8px;
+      height: 8px;
+      background: #dc2626;
+      border-radius: 50%;
+    }
+
+    .status-text {
+      color: #7f1d1d;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .features {
+      background: #f3f4f6;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .features h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .features ul {
+      list-style: none;
+    }
+
+    .features li {
+      padding: 8px 0;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .features li:before {
+      content: "✓ ";
+      color: #10b981;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+    }
+
+    button {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #3b82f6;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(59, 130, 246, 0.4);
+    }
+
+    .btn-secondary {
+      background: #e5e7eb;
+      color: #374151;
+    }
+
+    .btn-secondary:hover {
+      background: #d1d5db;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+
+    .loading {
+      display: none;
+    }
+
+    .loading.show {
+      display: block;
+    }
+
+    .spinner {
+      border: 3px solid #f3f4f6;
+      border-top: 3px solid #3b82f6;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 12px;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📡</div>
+    <h1>You're Offline</h1>
+    <p>PCGen is now running in offline mode. You can still access your saved characters and make changes locally.</p>
+
+    <div class="status">
+      <div class="status-indicator"></div>
+      <span class="status-text">No internet connection</span>
+    </div>
+
+    <div class="features">
+      <h2>What You Can Do</h2>
+      <ul>
+        <li>View saved characters</li>
+        <li>Edit character details</li>
+        <li>Make local changes</li>
+        <li>Review character sheets</li>
+      </ul>
+    </div>
+
+    <div class="features">
+      <h2>What You Can't Do</h2>
+      <ul>
+        <li>Create new characters (until online)</li>
+        <li>Sync changes to server (until online)</li>
+        <li>Access campaign features</li>
+        <li>Load new game content</li>
+      </ul>
+    </div>
+
+    <div class="actions">
+      <button class="btn-primary" onclick="goHome()">Return to App</button>
+      <button class="btn-secondary" onclick="checkConnection()">Check Connection</button>
+    </div>
+
+    <div class="loading" id="loadingState">
+      <div class="spinner"></div>
+      <p>Checking connection...</p>
+    </div>
+
+    <div class="footer">
+      <p>Changes will sync automatically when you're back online.</p>
+      <p id="lastSync">Last sync: Never</p>
+    </div>
+  </div>
+
+  <script>
+    // Check if online
+    function checkConnection() {
+      const loading = document.getElementById('loadingState');
+      loading.classList.add('show');
+
+      // Simulate check with a small fetch
+      fetch('/api/health', { method: 'HEAD' })
+        .then(() => {
+          // Back online!
+          window.location.href = '/';
+        })
+        .catch(() => {
+          // Still offline
+          loading.classList.remove('show');
+          alert('Still offline. Changes will sync when you reconnect.');
+        });
+    }
+
+    function goHome() {
+      window.location.href = '/';
+    }
+
+    // Update last sync time if available
+    if (localStorage.getItem('lastSync')) {
+      const lastSync = new Date(localStorage.getItem('lastSync'));
+      document.getElementById('lastSync').textContent =
+        'Last sync: ' + lastSync.toLocaleString();
+    }
+
+    // Listen for online event
+    window.addEventListener('online', () => {
+      // Show notification that we're back online
+      const notification = document.createElement('div');
+      notification.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #10b981;
+        color: white;
+        padding: 16px;
+        text-align: center;
+        z-index: 1000;
+        animation: slideDown 0.3s ease;
+      `;
+      notification.textContent = '✓ Back online! Changes will sync now.';
+      document.body.appendChild(notification);
+
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 2000);
+    });
+
+    // Add animation
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes slideDown {
+        from {
+          transform: translateY(-100%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  </script>
+</body>
+</html>
