@@ -215,7 +215,7 @@ export default function EquipmentSelector({
                               </div>
                               <div>
                                 <span className="text-gray-600">Max DEX: </span>
-                                <span className="font-bold">{item.data.armor.maxDexBonus:+}</span>
+                                <span className="font-bold">{item.data.armor.maxDexBonus >= 0 ? '+' : ''}{item.data.armor.maxDexBonus}</span>
                               </div>
                               <div>
                                 <span className="text-gray-600">Check Penalty: </span>
