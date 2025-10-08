@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: pcgen2-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: pcgen
+      MONGO_INITDB_ROOT_PASSWORD: pcgen_dev
+      MONGO_INITDB_DATABASE: pcgen2
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - pcgen2
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: pcgen2-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - pcgen2
+    command: redis-server --appendonly yes
+
+  # Backend service (optional, can run separately with npm run dev:backend)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: pcgen2-backend
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: development
+      MONGODB_URI: mongodb://pcgen:pcgen_dev@mongodb:27017/pcgen2?authSource=admin
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: dev_secret_key_change_in_production
+      PORT: 5000
+    depends_on:
+      - mongodb
+      - redis
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    networks:
+      - pcgen2
+    command: npm run dev
+
+volumes:
+  mongodb_data:
+  redis_data:
+
+networks:
+  pcgen2:
+    driver: bridge
