@@ -220,6 +220,11 @@ export class CharacterService {
 
       const character = await this.getCharacterById(characterId, userId);
 
+      // Ensure ability scores are initialized before applying race
+      if (!character.attributes.abilityScores) {
+        character.attributes.abilityScores = this.initializeAbilityScores();
+      }
+
       // Apply race data
       character.attributes.race = {
         id: race.id,
