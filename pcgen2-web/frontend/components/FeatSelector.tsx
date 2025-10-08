@@ -2,26 +2,77 @@
 
 import { useState } from 'react';
 import { Feat as FeatType } from '../types/gameRules';
+import FeatPrerequisites from './FeatPrerequisites';
+
+interface Prerequisite {
+  minBAB?: number;
+  minAbilityScores?: Record<string, number>;
+  requiredFeats?: string[];
+  description?: string;
+}
 
 interface Props {
   feats: FeatType[];
   selectedFeats: string[];
   maxFeats: number;
+  characterBAB?: number;
+  abilityScores?: Record<string, number>;
   onFeatSelect: (featId: string) => void;
   onFeatDeselect: (featId: string) => void;
 }
 
-export default function FeatSelector({ feats, selectedFeats, maxFeats, onFeatSelect, onFeatDeselect }: Props) {
+export default function FeatSelector({
+  feats,
+  selectedFeats,
+  maxFeats,
+  characterBAB = 0,
+  abilityScores = {},
+  onFeatSelect,
+  onFeatDeselect,
+}: Props) {
   const [expandedFeatId, setExpandedFeatId] = useState<string | null>(null);
 
   const isSelected = (featId: string): boolean => selectedFeats.includes(featId);
 
   const canSelectMore = (): boolean => selectedFeats.length < maxFeats;
 
+  // Check if feat prerequisites are met
+  const hasMetPrerequisites = (feat: FeatType): boolean => {
+    const prerequisites = feat.data.prerequisites as Prerequisite | undefined;
+
+    if (!prerequisites) return true;
+
+    // Check BAB requirement
+    if (prerequisites.minBAB && characterBAB < prerequisites.minBAB) {
+      return false;
+    }
+
+    // Check ability score requirements
+    if (prerequisites.minAbilityScores) {
+      for (const [ability, minScore] of Object.entries(prerequisites.minAbilityScores)) {
+        const score = abilityScores[ability] || 10;
+        if (score < minScore) {
+          return false;
+        }
+      }
+    }
+
+    // Check required feats
+    if (prerequisites.requiredFeats) {
+      for (const reqFeat of prerequisites.requiredFeats) {
+        if (!selectedFeats.includes(reqFeat)) {
+          return false;
+        }
+      }
+    }
+
+    return true;
+  };
+
   const toggleFeat = (feat: FeatType) => {
     if (isSelected(feat.id)) {
       onFeatDeselect(feat.id);
-    } else if (canSelectMore()) {
+    } else if (canSelectMore() && hasMetPrerequisites(feat)) {
       onFeatSelect(feat.id);
     }
   };
@@ -72,8 +123,9 @@ export default function FeatSelector({ feats, selectedFeats, maxFeats, onFeatSel
                       type="checkbox"
                       checked={selected}
                       onChange={() => toggleFeat(feat)}
-                      disabled={!selected && !canSelectMore()}
+                      disabled={!selected && (!canSelectMore() || !hasMetPrerequisites(feat))}
                       className="mr-3"
+                      title={!hasMetPrerequisites(feat) ? 'Prerequisites not met' : undefined}
                     />
 
                     <div className="flex-1">
@@ -103,15 +155,15 @@ export default function FeatSelector({ feats, selectedFeats, maxFeats, onFeatSel
                         </div>
                       )}
 
-                      {feat.data.prerequisites && feat.data.prerequisites.length > 0 && (
-                        <div>
-                          <p className="font-bold text-gray-700 mb-1">Prerequisites:</p>
-                          <ul className="list-disc list-inside text-gray-600">
-                            {feat.data.prerequisites.map((prereq, idx) => (
-                              <li key={idx}>{prereq}</li>
-                            ))}
-                          </ul>
-                        </div>
+                      {/* Phase 3c Prerequisites Validation */}
+                      {feat.data.prerequisites && (
+                        <FeatPrerequisites
+                          featId={feat.id}
+                          characterBAB={characterBAB}
+                          abilityScores={abilityScores}
+                          selectedFeats={selectedFeats}
+                          prerequisites={feat.data.prerequisites as Prerequisite}
+                        />
                       )}
                     </div>
                   )}

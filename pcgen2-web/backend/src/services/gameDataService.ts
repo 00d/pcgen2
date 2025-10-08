@@ -2,6 +2,7 @@ import { GameRule, IGameRule } from '../models/GameRule';
 import { getCachedData, setCachedData, deleteCachedData } from '../config/redis';
 import { createApiError } from '../middleware/errorHandler';
 import { logger } from '../utils/logger';
+import { EXTENDED_SPELLS, CLASS_SKILLS, FEAT_PREREQUISITES } from './gameData3cService';
 
 const CACHE_TTL = 86400; // 24 hours
 
@@ -403,7 +404,7 @@ export class GameDataService {
   }
 
   private getPathfinderClasses() {
-    return [
+    const baseClasses = [
       {
         type: 'class',
         id: 'barbarian',
@@ -581,10 +582,22 @@ export class GameDataService {
         },
       },
     ];
+
+    // Add Phase 3c class skills to classes
+    return baseClasses.map(pClass => {
+      const classSkills = CLASS_SKILLS[pClass.id as keyof typeof CLASS_SKILLS];
+      return {
+        ...pClass,
+        data: {
+          ...pClass.data,
+          ...(classSkills && { classSkills }),
+        },
+      };
+    });
   }
 
   private getPathfinderFeats() {
-    return [
+    const baseFeats = [
       {
         type: 'feat',
         id: 'acrobatics',
@@ -658,83 +671,29 @@ export class GameDataService {
         },
       },
     ];
+
+    // Add Phase 3c prerequisites to feats
+    return baseFeats.map(feat => {
+      const featPrerequisites = FEAT_PREREQUISITES[feat.id as keyof typeof FEAT_PREREQUISITES];
+      return {
+        ...feat,
+        data: {
+          ...feat.data,
+          ...(featPrerequisites && { prerequisites: featPrerequisites }),
+        },
+      };
+    });
   }
 
   private getPathfinderSpells() {
-    return [
-      {
-        type: 'spell',
-        id: 'acid-splash',
-        name: 'Acid Splash',
-        source: 'Core Rulebook',
-        data: {
-          level: 0,
-          school: 'Conjuration',
-          descriptor: ['Acid'],
-          castingTime: '1 standard action',
-          range: 'Close (25 ft. + 5 ft./2 levels)',
-          description:
-            'You fire a small orb of acid from your fingertips. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage.',
-        },
-      },
-      {
-        type: 'spell',
-        id: 'dancing-lights',
-        name: 'Dancing Lights',
-        source: 'Core Rulebook',
-        data: {
-          level: 0,
-          school: 'Evocation',
-          descriptor: [],
-          castingTime: '1 standard action',
-          range: 'Medium (100 ft. + 10 ft./level)',
-          description: 'You create up to four lights that resemble torches, lanterns, or covered lanterns.',
-        },
-      },
-      {
-        type: 'spell',
-        id: 'mage-armor',
-        name: 'Mage Armor',
-        source: 'Core Rulebook',
-        data: {
-          level: 1,
-          school: 'Conjuration',
-          descriptor: [],
-          castingTime: '1 standard action',
-          range: 'Touch',
-          description:
-            'An invisible but tangible magical force surrounds the subject of this spell, providing a +4 armor bonus to AC.',
-        },
-      },
-      {
-        type: 'spell',
-        id: 'magic-missile',
-        name: 'Magic Missile',
-        source: 'Core Rulebook',
-        data: {
-          level: 1,
-          school: 'Evocation',
-          descriptor: [],
-          castingTime: '1 standard action',
-          range: 'Medium (100 ft. + 10 ft./level)',
-          description: 'A missile of magical energy springs from your hand and strikes a target. It deals 1d4+1 points of force damage.',
-        },
-      },
-      {
-        type: 'spell',
-        id: 'shield',
-        name: 'Shield',
-        source: 'Core Rulebook',
-        data: {
-          level: 1,
-          school: 'Abjuration',
-          descriptor: [],
-          castingTime: '1 standard action',
-          range: 'Personal',
-          description: 'An invisible shield of magical force appears and protects you. It grants you a +4 shield bonus to AC.',
-        },
-      },
-    ];
+    // Use extended spell database from Phase 3c (97 spells across all levels 0-9)
+    return EXTENDED_SPELLS.map(spell => ({
+      type: 'spell',
+      id: spell.id,
+      name: spell.name,
+      source: spell.source,
+      data: spell.data,
+    }));
   }
 
   private getPathfinderEquipment() {

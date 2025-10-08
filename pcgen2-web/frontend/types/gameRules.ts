@@ -35,6 +35,7 @@ export interface PClass extends GameRule {
       will: string;
     };
     skillsPerLevel: number;
+    classSkills?: string[]; // Phase 3c: List of class skills for this class
     classAbilities?: Array<{
       id: string;
       name: string;
@@ -48,7 +49,12 @@ export interface Feat extends GameRule {
   type: 'feat';
   data: {
     type: 'General' | 'Combat' | 'Bonus';
-    prerequisites: string[];
+    prerequisites?: string[] | {
+      minBAB?: number;
+      minAbilityScores?: Record<string, number>;
+      requiredFeats?: string[];
+      description?: string;
+    };
     benefit: string;
     normal?: string;
   };
