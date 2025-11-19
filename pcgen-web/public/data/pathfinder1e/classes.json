@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "key": "Bar",
+    "hitDie": 12,
+    "skillPointsPerLevel": 4,
+    "classType": "base",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.31",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "key": "Bar",
+    "hitDie": 8,
+    "skillPointsPerLevel": 6,
+    "classType": "base",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.34",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "CHA",
+      "spellsPerDay": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "spellsKnown": [
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "key": "Cle",
+    "hitDie": 8,
+    "skillPointsPerLevel": 2,
+    "classType": "base",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.38",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "WIS",
+      "spellsPerDay": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "druid",
+    "name": "Druid",
+    "key": "Dru",
+    "hitDie": 8,
+    "skillPointsPerLevel": 4,
+    "classType": "base",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.48",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "WIS",
+      "spellsPerDay": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "key": "Fig",
+    "hitDie": 10,
+    "skillPointsPerLevel": 2,
+    "classType": "base",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.55",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "key": "Mon",
+    "hitDie": 10,
+    "skillPointsPerLevel": 4,
+    "classType": "base",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.56",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "key": "Pal",
+    "hitDie": 10,
+    "skillPointsPerLevel": 2,
+    "classType": "base",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.60",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "CHA",
+      "spellsPerDay": [
+        null,
+        null,
+        null,
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "key": "Ran",
+    "hitDie": 10,
+    "skillPointsPerLevel": 6,
+    "classType": "base",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.64",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "WIS",
+      "spellsPerDay": [
+        null,
+        null,
+        null,
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "key": "Rog",
+    "hitDie": 8,
+    "skillPointsPerLevel": 8,
+    "classType": "base",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.67",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "key": "Sor",
+    "hitDie": 6,
+    "skillPointsPerLevel": 2,
+    "classType": "base",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.70",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "CHA",
+      "spellsPerDay": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "spellsKnown": [
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ],
+        [
+          9
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "key": "Wiz",
+    "hitDie": 6,
+    "skillPointsPerLevel": 2,
+    "classType": "base",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.77",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "INT",
+      "spellsPerDay": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "arcane-archer",
+    "name": "Arcane Archer",
+    "key": "Arc",
+    "hitDie": 10,
+    "skillPointsPerLevel": 4,
+    "classType": "prestige",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.374",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "arcane-trickster",
+    "name": "Arcane Trickster",
+    "key": "Arc",
+    "hitDie": 6,
+    "skillPointsPerLevel": 4,
+    "classType": "prestige",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.376",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "key": "Ass",
+    "hitDie": 8,
+    "skillPointsPerLevel": 4,
+    "classType": "prestige",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.378",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "dragon-disciple",
+    "name": "Dragon Disciple",
+    "key": "Dra",
+    "hitDie": 12,
+    "skillPointsPerLevel": 2,
+    "classType": "prestige",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.380",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "duelist",
+    "name": "Duelist",
+    "key": "Due",
+    "hitDie": 10,
+    "skillPointsPerLevel": 4,
+    "classType": "prestige",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.382",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "eldritch-knight",
+    "name": "Eldritch Knight",
+    "key": "Eld",
+    "hitDie": 10,
+    "skillPointsPerLevel": 2,
+    "classType": "prestige",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.384",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "loremaster",
+    "name": "Loremaster",
+    "key": "Lor",
+    "hitDie": 6,
+    "skillPointsPerLevel": 4,
+    "classType": "prestige",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.385",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "mystic-theurge",
+    "name": "Mystic Theurge",
+    "key": "Mys",
+    "hitDie": 6,
+    "skillPointsPerLevel": 2,
+    "classType": "prestige",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.387",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "pathfinder-chronicler",
+    "name": "Pathfinder Chronicler",
+    "key": "Pat",
+    "hitDie": 8,
+    "skillPointsPerLevel": 8,
+    "classType": "prestige",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.388",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "shadowdancer",
+    "name": "Shadowdancer",
+    "key": "Sha",
+    "hitDie": 8,
+    "skillPointsPerLevel": 6,
+    "classType": "prestige",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "good",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.391",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "adept",
+    "name": "Adept",
+    "key": "Ade",
+    "hitDie": 6,
+    "skillPointsPerLevel": 2,
+    "classType": "npc",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.448",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    },
+    "spellcasting": {
+      "type": "arcane",
+      "stat": "WIS",
+      "spellsPerDay": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "spellList": "default"
+    }
+  },
+  {
+    "id": "aristocrat",
+    "name": "Aristocrat",
+    "key": "Ari",
+    "hitDie": 8,
+    "skillPointsPerLevel": 4,
+    "classType": "npc",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.449",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "commoner",
+    "name": "Commoner",
+    "key": "Com",
+    "hitDie": 6,
+    "skillPointsPerLevel": 2,
+    "classType": "npc",
+    "baseAttackBonus": "poor",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.449",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "expert",
+    "name": "Expert",
+    "key": "Exp",
+    "hitDie": 8,
+    "skillPointsPerLevel": 6,
+    "classType": "npc",
+    "baseAttackBonus": "medium",
+    "saves": {
+      "fortitude": "poor",
+      "reflex": "poor",
+      "will": "good"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.450",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "warrior",
+    "name": "Warrior",
+    "key": "War",
+    "hitDie": 10,
+    "skillPointsPerLevel": 2,
+    "classType": "npc",
+    "baseAttackBonus": "full",
+    "saves": {
+      "fortitude": "good",
+      "reflex": "poor",
+      "will": "poor"
+    },
+    "classSkills": [],
+    "proficiencies": {
+      "armor": [],
+      "shields": [],
+      "weapons": []
+    },
+    "classFeatures": [],
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.450",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  }
+]

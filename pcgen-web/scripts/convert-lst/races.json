@@ -1,0 +1,329 @@
+[
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "size": "Medium",
+    "type": "Humanoid",
+    "speed": 20,
+    "abilityScoreModifiers": [],
+    "traits": [
+      {
+        "name": "+2 Constitution, +2 Wisdom, -2 Charisma",
+        "description": "Dwarves are both tough and wise, but also a bit gruff."
+      },
+      {
+        "name": "Medium",
+        "description": "Dwarves are Medium creatures and have no bonuses or penalties due to their size."
+      },
+      {
+        "name": "Slow and Steady",
+        "description": "Dwarves have a base speed of 20 feet, but their speed is never modified by armor or encumbrance."
+      },
+      {
+        "name": "Darkvision",
+        "description": "You can see in the dark up to 60 feet."
+      },
+      {
+        "name": "Darkvision",
+        "description": "Dwarves can see in the dark up to 60 feet."
+      },
+      {
+        "name": "Defensive Training",
+        "description": "Dwarves get a + dodge bonus to AC against monsters of the giant subtype."
+      },
+      {
+        "name": "Greed",
+        "description": "Dwarves receive a +2 racial bonus on Appraise skill checks made to determine the price of nonmagical goods that contain precious metals or gemstones."
+      },
+      {
+        "name": "Hatred",
+        "description": "Dwarves receive a +1 bonus on attack rolls against humanoid creatures of the orc and goblinoid subtypes due to special training against these hated foes."
+      },
+      {
+        "name": "Hardy",
+        "description": "Dwarves receive a +2 racial bonus on saving throws against poison, spells, and spell-like abilities."
+      },
+      {
+        "name": "Stability",
+        "description": "Dwarves receive a +4 racial bonus to their Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground."
+      },
+      {
+        "name": "Stonecunning",
+        "description": "Dwarves receive a + bonus on Perception checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking."
+      },
+      {
+        "name": "Weapon Familiarity",
+        "description": "Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word \"dwarven\" in its name as a martial weapon."
+      },
+      {
+        "name": "Languages",
+        "description": "Dwarves begin play speaking Common and Dwarven. Dwarves with high Intelligence scores can choose from the following: Giant, Gnome, Goblin, Orc, Terran, and Undercommon."
+      },
+      {
+        "name": "Humanoid (Dwarf)",
+        "description": "You gain a + bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against Dwarfs. Likewise, you get a + bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures."
+      }
+    ],
+    "languages": {
+      "starting": [],
+      "bonus": []
+    },
+    "source": {
+      "name": "",
+      "shortName": "",
+      "page": "p.xx"
+    }
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "size": "Medium",
+    "type": "Humanoid",
+    "speed": 30,
+    "abilityScoreModifiers": [],
+    "traits": [
+      {
+        "name": "+2 Dexterity, +2 Intelligence, -2 Constitution",
+        "description": "Elves are nimble, both in body and mind, but their form is frail."
+      },
+      {
+        "name": "Medium",
+        "description": "Elves are Medium creatures and have no bonuses or penalties due to their size."
+      },
+      {
+        "name": "Normal Speed",
+        "description": "Elves have a base speed of 30 feet."
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "You can see twice as far as humans in conditions of dim light."
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "Elves can see twice as far as humans in conditions of dim light."
+      },
+      {
+        "name": "Elven Immunities",
+        "description": "Elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects."
+      },
+      {
+        "name": "Elven Magic",
+        "description": "Elves receive a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, elves receive a +2 racial bonus on Spellcraft skill checks made to identify the properties of magic items."
+      },
+      {
+        "name": "Keen Senses",
+        "description": "Elves receive a + racial bonus on Perception skill checks."
+      },
+      {
+        "name": "Weapon Familiarity",
+        "description": "Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word \"elven\" in its name as a martial weapon."
+      },
+      {
+        "name": "Languages",
+        "description": "Elves begin play speaking Common and Elven. Elves with high Intelligence scores can choose from the following: Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan."
+      },
+      {
+        "name": "Humanoid (Elf)",
+        "description": "You gain a + bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against Elfs. Likewise, you get a + bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures."
+      }
+    ],
+    "languages": {
+      "starting": [],
+      "bonus": []
+    },
+    "source": {
+      "name": "",
+      "shortName": "",
+      "page": "p.xx"
+    }
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "size": "Medium",
+    "type": "Humanoid",
+    "speed": 20,
+    "abilityScoreModifiers": [],
+    "traits": [
+      {
+        "name": "+2 Constitution, +2 Charisma, -2 Strength",
+        "description": "Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable."
+      },
+      {
+        "name": "Small",
+        "description": "Gnomes are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+      },
+      {
+        "name": "Slow Speed",
+        "description": "Gnomes have a base speed of 20 feet."
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "You can see twice as far as humans in conditions of dim light."
+      },
+      {
+        "name": "Low-Light Vision",
+        "description": "Gnomes can see twice as far as humans in conditions of dim light."
+      },
+      {
+        "name": "Defensive Training",
+        "description": "Gnomes get a + dodge bonus to AC against monsters of the giant subtype."
+      },
+      {
+        "name": "Gnome Magic",
+        "description": "Gnomes add + to the DC of any saving throws against illusion spells that they cast. Gnomes with a Charisma of 11 or higher also gain the following spell-like abilities: 1/day--dancing lights, ghost sound, prestidigitation, and speak with animals. The caster level for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's Charisma modifier."
+      },
+      {
+        "name": "Hatred",
+        "description": "Gnomes receive a + bonus on attack rolls against humanoid creatures of the reptilian and goblinoid subtypes due to special training against these hated foes."
+      },
+      {
+        "name": "Illusion Resistance",
+        "description": "Gnomes get a +2 racial saving throw bonus against illusion spells and effects."
+      },
+      {
+        "name": "Keen Senses",
+        "description": "Gnomes receive a +2 racial bonus on Perception skill checks."
+      },
+      {
+        "name": "Obsessive",
+        "description": "Gnomes receive a +2 racial bonus on a Craft or Profession skill of their choice."
+      },
+      {
+        "name": "Weapon Familiarity",
+        "description": "Gnomes treat any weapon with the word \"gnome\" in its name as a martial weapon."
+      },
+      {
+        "name": "Languages",
+        "description": "Gnomes begin play speaking Common, Gnome, and Sylvan. Gnomes with high Intelligence scores can choose from the following: Draconic, Dwarven, Elven, Giant, Goblin, and Orc."
+      },
+      {
+        "name": "Obsessive Craft Bonus",
+        "description": "Gnomes receive a +2 racial bonus on a Craft skill of their choice."
+      },
+      {
+        "name": "Obsessive Profession Bonus",
+        "description": "Gnomes receive a +2 racial bonus on a Profession skill of their choice."
+      },
+      {
+        "name": "Humanoid (Gnome)",
+        "description": "You gain a + bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against Gnomes. Likewise, you get a + bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures."
+      }
+    ],
+    "languages": {
+      "starting": [],
+      "bonus": []
+    },
+    "source": {
+      "name": "",
+      "shortName": "",
+      "page": "p.xx"
+    }
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "size": "Medium",
+    "type": "Humanoid",
+    "speed": 20,
+    "abilityScoreModifiers": [],
+    "traits": [
+      {
+        "name": "+2 Dexterity, +2 Charisma, -2 Strength",
+        "description": "Halflings are nimble and strong-willed, but their small stature makes them weaker than other races."
+      },
+      {
+        "name": "Small",
+        "description": "Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks."
+      },
+      {
+        "name": "Slow Speed",
+        "description": "Halflings have a base speed of 20 feet."
+      },
+      {
+        "name": "Fearless",
+        "description": "Halflings receive a +2 racial bonus on all saving throws against fear. This bonus stacks with the bonus granted by halfling luck."
+      },
+      {
+        "name": "Halfling Luck",
+        "description": "Halflings receive a +1 racial bonus on all saving throws."
+      },
+      {
+        "name": "Keen Senses",
+        "description": "Halflings receive a +2 racial bonus on Perception skill checks."
+      },
+      {
+        "name": "Sure-Footed",
+        "description": "Halflings receive a +2 racial bonus on Acrobatics and Climb skill checks."
+      },
+      {
+        "name": "Weapon Familiarity",
+        "description": "Halflings are proficient with slings and treat any weapon with the word \"halfling\" in its name as a martial weapon."
+      },
+      {
+        "name": "Languages",
+        "description": "Halflings begin play speaking Common and Halfling. Halflings with high Intelligence scores can choose from the following: Dwarven, Elven, Gnome, and Goblin."
+      },
+      {
+        "name": "Humanoid (Halfling)",
+        "description": "You gain a + bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against Halflings. Likewise, you get a + bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures."
+      }
+    ],
+    "languages": {
+      "starting": [],
+      "bonus": []
+    },
+    "source": {
+      "name": "",
+      "shortName": "",
+      "page": "p.xx"
+    }
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "size": "Medium",
+    "type": "Humanoid",
+    "speed": 30,
+    "abilityScoreModifiers": [],
+    "traits": [
+      {
+        "name": "+2 to One Ability Score",
+        "description": "Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature."
+      },
+      {
+        "name": "Medium",
+        "description": "Humans are Medium creatures and have no bonuses or penalties due to their size."
+      },
+      {
+        "name": "Normal Speed",
+        "description": "Humans have a base speed of 30 feet."
+      },
+      {
+        "name": "Bonus Feat",
+        "description": "Humans select one extra feat at 1st level."
+      },
+      {
+        "name": "Skilled",
+        "description": "Humans gain an additional skill rank at 1st level and one additional rank whenever they gain a level."
+      },
+      {
+        "name": "Languages",
+        "description": "Humans begin play speaking Common. Humans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic)."
+      },
+      {
+        "name": "Humanoid (Human)",
+        "description": "You gain a + bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against Humans. Likewise, you get a + bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures."
+      }
+    ],
+    "languages": {
+      "starting": [],
+      "bonus": []
+    },
+    "source": {
+      "name": "",
+      "shortName": "",
+      "page": "p.xx"
+    }
+  }
+]

@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "acrobatics",
+    "name": "Acrobatics",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Acrobatics skill represents training and expertise in acrobatics.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.87",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "appraise",
+    "name": "Appraise",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Appraise skill represents training and expertise in appraise.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.90",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "bluff",
+    "name": "Bluff",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Bluff skill represents training and expertise in bluff.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.90",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "climb",
+    "name": "Climb",
+    "ability": "STR",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Climb skill represents training and expertise in climb.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.90",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-alchemy",
+    "name": "Craft (Alchemy)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Alchemy) skill represents training and expertise in craft (alchemy).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-armor",
+    "name": "Craft (Armor)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Armor) skill represents training and expertise in craft (armor).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-baskets",
+    "name": "Craft (Baskets)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Baskets) skill represents training and expertise in craft (baskets).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-blacksmithing",
+    "name": "Craft (Blacksmithing)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Blacksmithing) skill represents training and expertise in craft (blacksmithing).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-books",
+    "name": "Craft (Books)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Books) skill represents training and expertise in craft (books).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-bows",
+    "name": "Craft (Bows)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Bows) skill represents training and expertise in craft (bows).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-calligraphy",
+    "name": "Craft (Calligraphy)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Calligraphy) skill represents training and expertise in craft (calligraphy).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-carpentry",
+    "name": "Craft (Carpentry)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Carpentry) skill represents training and expertise in craft (carpentry).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-cloth",
+    "name": "Craft (Cloth)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Cloth) skill represents training and expertise in craft (cloth).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-clothing",
+    "name": "Craft (Clothing)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Clothing) skill represents training and expertise in craft (clothing).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-gemcutting",
+    "name": "Craft (Gemcutting)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Gemcutting) skill represents training and expertise in craft (gemcutting).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-glass",
+    "name": "Craft (Glass)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Glass) skill represents training and expertise in craft (glass).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-jewelry",
+    "name": "Craft (Jewelry)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Jewelry) skill represents training and expertise in craft (jewelry).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-leather",
+    "name": "Craft (Leather)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Leather) skill represents training and expertise in craft (leather).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-locks",
+    "name": "Craft (Locks)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Locks) skill represents training and expertise in craft (locks).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-paintings",
+    "name": "Craft (Paintings)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Paintings) skill represents training and expertise in craft (paintings).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-pottery",
+    "name": "Craft (Pottery)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Pottery) skill represents training and expertise in craft (pottery).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-sculptures",
+    "name": "Craft (Sculptures)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Sculptures) skill represents training and expertise in craft (sculptures).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-ships",
+    "name": "Craft (Ships)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Ships) skill represents training and expertise in craft (ships).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-shoes",
+    "name": "Craft (Shoes)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Shoes) skill represents training and expertise in craft (shoes).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-stonemasonry",
+    "name": "Craft (Stonemasonry)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Stonemasonry) skill represents training and expertise in craft (stonemasonry).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-traps",
+    "name": "Craft (Traps)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Traps) skill represents training and expertise in craft (traps).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-weapons",
+    "name": "Craft (Weapons)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Weapons) skill represents training and expertise in craft (weapons).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "craft-untrained",
+    "name": "Craft (Untrained)",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Craft (Untrained) skill represents training and expertise in craft (untrained).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.91",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "diplomacy",
+    "name": "Diplomacy",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Diplomacy skill represents training and expertise in diplomacy.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.93",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "disable-device",
+    "name": "Disable Device",
+    "ability": "DEX",
+    "trainedOnly": true,
+    "armorCheckPenalty": true,
+    "description": "The Disable Device skill represents training and expertise in disable device.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.94",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "disguise",
+    "name": "Disguise",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Disguise skill represents training and expertise in disguise.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.95",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "escape-artist",
+    "name": "Escape Artist",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Escape Artist skill represents training and expertise in escape artist.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.95",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "fly",
+    "name": "Fly",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Fly skill represents training and expertise in fly.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.96",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "handle-animal",
+    "name": "Handle Animal",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Handle Animal skill represents training and expertise in handle animal.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.97",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Heal skill represents training and expertise in heal.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.98",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "intimidate",
+    "name": "Intimidate",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Intimidate skill represents training and expertise in intimidate.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.99",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-arcana",
+    "name": "Knowledge (Arcana)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Arcana) skill represents training and expertise in knowledge (arcana).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-dungeoneering",
+    "name": "Knowledge (Dungeoneering)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Dungeoneering) skill represents training and expertise in knowledge (dungeoneering).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-engineering",
+    "name": "Knowledge (Engineering)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Engineering) skill represents training and expertise in knowledge (engineering).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-geography",
+    "name": "Knowledge (Geography)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Geography) skill represents training and expertise in knowledge (geography).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-history",
+    "name": "Knowledge (History)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (History) skill represents training and expertise in knowledge (history).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-local",
+    "name": "Knowledge (Local)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Local) skill represents training and expertise in knowledge (local).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-nature",
+    "name": "Knowledge (Nature)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Nature) skill represents training and expertise in knowledge (nature).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-nobility",
+    "name": "Knowledge (Nobility)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Nobility) skill represents training and expertise in knowledge (nobility).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-planes",
+    "name": "Knowledge (Planes)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Planes) skill represents training and expertise in knowledge (planes).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-religion",
+    "name": "Knowledge (Religion)",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Religion) skill represents training and expertise in knowledge (religion).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.100",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "linguistics",
+    "name": "Linguistics",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Linguistics skill represents training and expertise in linguistics.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.101",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perception",
+    "name": "Perception",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Perception skill represents training and expertise in perception.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-act",
+    "name": "Perform (Act)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Act) skill represents training and expertise in perform (act).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-comedy",
+    "name": "Perform (Comedy)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Comedy) skill represents training and expertise in perform (comedy).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-dance",
+    "name": "Perform (Dance)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Dance) skill represents training and expertise in perform (dance).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-keyboard-instruments",
+    "name": "Perform (Keyboard Instruments)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Keyboard Instruments) skill represents training and expertise in perform (keyboard instruments).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-oratory",
+    "name": "Perform (Oratory)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Oratory) skill represents training and expertise in perform (oratory).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-percussion-instruments",
+    "name": "Perform (Percussion Instruments)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Percussion Instruments) skill represents training and expertise in perform (percussion instruments).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-sing",
+    "name": "Perform (Sing)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Sing) skill represents training and expertise in perform (sing).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-string-instruments",
+    "name": "Perform (String Instruments)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (String Instruments) skill represents training and expertise in perform (string instruments).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-wind-instruments",
+    "name": "Perform (Wind Instruments)",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Wind Instruments) skill represents training and expertise in perform (wind instruments).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "perform-untrained",
+    "name": "Perform (Untrained)",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Perform (Untrained) skill represents training and expertise in perform (untrained).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.102",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-architect",
+    "name": "Profession (Architect)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Architect) skill represents training and expertise in profession (architect).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-baker",
+    "name": "Profession (Baker)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Baker) skill represents training and expertise in profession (baker).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-barrister",
+    "name": "Profession (Barrister)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Barrister) skill represents training and expertise in profession (barrister).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-brewer",
+    "name": "Profession (Brewer)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Brewer) skill represents training and expertise in profession (brewer).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-butcher",
+    "name": "Profession (Butcher)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Butcher) skill represents training and expertise in profession (butcher).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-clerk",
+    "name": "Profession (Clerk)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Clerk) skill represents training and expertise in profession (clerk).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-cook",
+    "name": "Profession (Cook)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Cook) skill represents training and expertise in profession (cook).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-courtesan",
+    "name": "Profession (Courtesan)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Courtesan) skill represents training and expertise in profession (courtesan).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-driver",
+    "name": "Profession (Driver)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Driver) skill represents training and expertise in profession (driver).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-engineer",
+    "name": "Profession (Engineer)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Engineer) skill represents training and expertise in profession (engineer).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-farmer",
+    "name": "Profession (Farmer)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Farmer) skill represents training and expertise in profession (farmer).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-fisherman",
+    "name": "Profession (Fisherman)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Fisherman) skill represents training and expertise in profession (fisherman).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-gambler",
+    "name": "Profession (Gambler)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Gambler) skill represents training and expertise in profession (gambler).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-gardener",
+    "name": "Profession (Gardener)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Gardener) skill represents training and expertise in profession (gardener).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-herbalist",
+    "name": "Profession (Herbalist)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Herbalist) skill represents training and expertise in profession (herbalist).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-innkeeper",
+    "name": "Profession (Innkeeper)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Innkeeper) skill represents training and expertise in profession (innkeeper).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-librarian",
+    "name": "Profession (Librarian)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Librarian) skill represents training and expertise in profession (librarian).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-merchant",
+    "name": "Profession (Merchant)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Merchant) skill represents training and expertise in profession (merchant).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-midwife",
+    "name": "Profession (Midwife)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Midwife) skill represents training and expertise in profession (midwife).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-miller",
+    "name": "Profession (Miller)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Miller) skill represents training and expertise in profession (miller).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-miner",
+    "name": "Profession (Miner)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Miner) skill represents training and expertise in profession (miner).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-porter",
+    "name": "Profession (Porter)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Porter) skill represents training and expertise in profession (porter).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-sailor",
+    "name": "Profession (Sailor)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Sailor) skill represents training and expertise in profession (sailor).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-scribe",
+    "name": "Profession (Scribe)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Scribe) skill represents training and expertise in profession (scribe).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-shepherd",
+    "name": "Profession (Shepherd)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Shepherd) skill represents training and expertise in profession (shepherd).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-soldier",
+    "name": "Profession (Soldier)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Soldier) skill represents training and expertise in profession (soldier).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-soothsayer",
+    "name": "Profession (Soothsayer)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Soothsayer) skill represents training and expertise in profession (soothsayer).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-stable-master",
+    "name": "Profession (Stable Master)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Stable Master) skill represents training and expertise in profession (stable master).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-tanner",
+    "name": "Profession (Tanner)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Tanner) skill represents training and expertise in profession (tanner).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-trapper",
+    "name": "Profession (Trapper)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Trapper) skill represents training and expertise in profession (trapper).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-woodcutter",
+    "name": "Profession (Woodcutter)",
+    "ability": "WIS",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Woodcutter) skill represents training and expertise in profession (woodcutter).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "ride",
+    "name": "Ride",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Ride skill represents training and expertise in ride.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.103",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "sense-motive",
+    "name": "Sense Motive",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Sense Motive skill represents training and expertise in sense motive.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.104",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "sleight-of-hand",
+    "name": "Sleight of Hand",
+    "ability": "DEX",
+    "trainedOnly": true,
+    "armorCheckPenalty": true,
+    "description": "The Sleight of Hand skill represents training and expertise in sleight of hand.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.105",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "spellcraft",
+    "name": "Spellcraft",
+    "ability": "INT",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Spellcraft skill represents training and expertise in spellcraft.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.106",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "stealth",
+    "name": "Stealth",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Stealth skill represents training and expertise in stealth.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.106",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "survival",
+    "name": "Survival",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Survival skill represents training and expertise in survival.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.107",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "swim",
+    "name": "Swim",
+    "ability": "STR",
+    "trainedOnly": false,
+    "armorCheckPenalty": true,
+    "description": "The Swim skill represents training and expertise in swim.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.108",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "use-magic-device",
+    "name": "Use Magic Device",
+    "ability": "CHA",
+    "trainedOnly": true,
+    "armorCheckPenalty": false,
+    "description": "The Use Magic Device skill represents training and expertise in use magic device.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.108",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "knowledge-untrained",
+    "name": "Knowledge (Untrained)",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Knowledge (Untrained) skill represents training and expertise in knowledge (untrained).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "profession-untrained",
+    "name": "Profession (Untrained)",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Profession (Untrained) skill represents training and expertise in profession (untrained).",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "untrained-strength",
+    "name": "Untrained Strength",
+    "ability": "STR",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Untrained Strength skill represents training and expertise in untrained strength.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "untrained-dexterity",
+    "name": "Untrained Dexterity",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Untrained Dexterity skill represents training and expertise in untrained dexterity.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "untrained-intelligence",
+    "name": "Untrained Intelligence",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Untrained Intelligence skill represents training and expertise in untrained intelligence.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "untrained-wisdom",
+    "name": "Untrained Wisdom",
+    "ability": "WIS",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Untrained Wisdom skill represents training and expertise in untrained wisdom.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "untrained-charisma",
+    "name": "Untrained Charisma",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Untrained Charisma skill represents training and expertise in untrained charisma.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "disable-device",
+    "name": "Disable Device",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Disable Device skill represents training and expertise in disable device.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "handle-animal",
+    "name": "Handle Animal",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Handle Animal skill represents training and expertise in handle animal.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "linguistics",
+    "name": "Linguistics",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Linguistics skill represents training and expertise in linguistics.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "sleight-of-hand",
+    "name": "Sleight of Hand",
+    "ability": "DEX",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Sleight of Hand skill represents training and expertise in sleight of hand.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "spellcraft",
+    "name": "Spellcraft",
+    "ability": "INT",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Spellcraft skill represents training and expertise in spellcraft.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "use-magic-device",
+    "name": "Use Magic Device",
+    "ability": "CHA",
+    "trainedOnly": false,
+    "armorCheckPenalty": false,
+    "description": "The Use Magic Device skill represents training and expertise in use magic device.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  }
+]

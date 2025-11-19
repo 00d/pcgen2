@@ -1,0 +1,296 @@
+[
+  {
+    "id": "padded-armor",
+    "name": "Padded Armor",
+    "category": "armor",
+    "armorType": "light",
+    "cost": 5,
+    "weight": 10,
+    "armorBonus": 1,
+    "maxDexBonus": 8,
+    "armorCheckPenalty": 0,
+    "arcaneSpellFailure": 5,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Little more than heavy, quilted cloth, this armor provides only the most basic protection.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.151",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "leather-armor",
+    "name": "Leather Armor",
+    "category": "armor",
+    "armorType": "light",
+    "cost": 10,
+    "weight": 15,
+    "armorBonus": 2,
+    "maxDexBonus": 6,
+    "armorCheckPenalty": 0,
+    "arcaneSpellFailure": 10,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Leather armor is made up of pieces of hard boiled leather carefully sewn together.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.151",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "studded-leather-armor",
+    "name": "Studded Leather Armor",
+    "category": "armor",
+    "armorType": "light",
+    "cost": 25,
+    "weight": 20,
+    "armorBonus": 3,
+    "maxDexBonus": 5,
+    "armorCheckPenalty": -1,
+    "arcaneSpellFailure": 15,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Similar to leather armor, this suit is reinforced with small metal studs.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.153",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "chain-shirt",
+    "name": "Chain Shirt",
+    "category": "armor",
+    "armorType": "light",
+    "cost": 100,
+    "weight": 25,
+    "armorBonus": 4,
+    "maxDexBonus": 4,
+    "armorCheckPenalty": -2,
+    "arcaneSpellFailure": 20,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "hide-armor",
+    "name": "Hide Armor",
+    "category": "armor",
+    "armorType": "medium",
+    "cost": 15,
+    "weight": 25,
+    "armorBonus": 4,
+    "maxDexBonus": 4,
+    "armorCheckPenalty": -3,
+    "arcaneSpellFailure": 20,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Hide armor is made up of the tanned and preserved skin of any thick-hided beast.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.151",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "scale-mail",
+    "name": "Scale Mail",
+    "category": "armor",
+    "armorType": "medium",
+    "cost": 50,
+    "weight": 30,
+    "armorBonus": 5,
+    "maxDexBonus": 3,
+    "armorCheckPenalty": -4,
+    "arcaneSpellFailure": 25,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Scale mail is made up of dozens of small overlapping metal plates. The suit includes gauntlets.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.151",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "chainmail",
+    "name": "Chainmail",
+    "category": "armor",
+    "armorType": "medium",
+    "cost": 150,
+    "weight": 40,
+    "armorBonus": 6,
+    "maxDexBonus": 2,
+    "armorCheckPenalty": -5,
+    "arcaneSpellFailure": 30,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Unlike a chain shirt, chainmail covers the legs and arms of the wearer. The suit includes gauntlets.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "breastplate",
+    "name": "Breastplate",
+    "category": "armor",
+    "armorType": "medium",
+    "cost": 200,
+    "weight": 30,
+    "armorBonus": 6,
+    "maxDexBonus": 3,
+    "armorCheckPenalty": -4,
+    "arcaneSpellFailure": 25,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "Covering only the torso, a breastplate is made up of a single piece of sculpted metal.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "splint-mail",
+    "name": "Splint Mail",
+    "category": "armor",
+    "armorType": "heavy",
+    "cost": 200,
+    "weight": 45,
+    "armorBonus": 7,
+    "maxDexBonus": 0,
+    "armorCheckPenalty": -7,
+    "arcaneSpellFailure": 40,
+    "speed30": 20,
+    "speed20": 15,
+    "description": "Splint mail is made up of metal strips, like banded mail. The suit includes gauntlets.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.153",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "banded-mail",
+    "name": "Banded Mail",
+    "category": "armor",
+    "armorType": "heavy",
+    "cost": 250,
+    "weight": 35,
+    "armorBonus": 7,
+    "maxDexBonus": 1,
+    "armorCheckPenalty": -6,
+    "arcaneSpellFailure": 35,
+    "speed30": 20,
+    "speed20": 15,
+    "description": "Banded mail is made up of overlapping strips of metal, fastened to a leather backing. The suit includes gauntlets.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "half-plate",
+    "name": "Half-Plate",
+    "category": "armor",
+    "armorType": "heavy",
+    "cost": 600,
+    "weight": 50,
+    "armorBonus": 8,
+    "maxDexBonus": 0,
+    "armorCheckPenalty": -7,
+    "arcaneSpellFailure": 40,
+    "speed30": 20,
+    "speed20": 15,
+    "description": "Combining elements of full plate and chainmail, half-plate includes gauntlets and a helm.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.151",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "full-plate",
+    "name": "Full Plate",
+    "category": "armor",
+    "armorType": "heavy",
+    "cost": 1500,
+    "weight": 50,
+    "armorBonus": 9,
+    "maxDexBonus": 1,
+    "armorCheckPenalty": -6,
+    "arcaneSpellFailure": 35,
+    "speed30": 20,
+    "speed20": 15,
+    "description": "This metal suit includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4 x 100) gold pieces.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "buckler",
+    "name": "Buckler",
+    "category": "armor",
+    "armorType": "shield",
+    "cost": 5,
+    "weight": 5,
+    "armorBonus": 1,
+    "maxDexBonus": null,
+    "armorCheckPenalty": -1,
+    "arcaneSpellFailure": 5,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an offhand weapon or using your off hand to help wield a twohanded weapon), but you take a -1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler's AC bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler's AC bonus until your next turn. You can't make a shield bash with a buckler.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.150",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  },
+  {
+    "id": "shield,-tower",
+    "name": "Shield, Tower",
+    "category": "armor",
+    "armorType": "shield",
+    "cost": 30,
+    "weight": 45,
+    "armorBonus": 4,
+    "maxDexBonus": 2,
+    "armorCheckPenalty": -10,
+    "arcaneSpellFailure": 50,
+    "speed30": 30,
+    "speed20": 20,
+    "description": "This massive wooden shield is nearly as tall as you are. In most situations, it provides the indicated shield bonus to your AC. As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge. The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else. When employing a tower shield in combat, you take a -2 penalty on attack rolls because of the shield's encumbrance.",
+    "source": {
+      "name": "Core Rulebook",
+      "shortName": "CR",
+      "page": "p.153",
+      "url": "http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy88yj"
+    }
+  }
+]
