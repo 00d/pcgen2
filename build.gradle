@@ -192,33 +192,6 @@ sourceSets {
     }
 }
 
-/* Copy 'master' outputsheets into different genre folders */
-tasks.register("copyMasterSheets", Copy) {
-    def filesToCopy = copySpec {
-        include 'eqsheet_fantasy_std.htm', 'psheet_fantasy_std.htm'
-        from 'outputsheets/d20/fantasy/htmlxml'
-    }
-
-    into(layout.projectDirectory.dir('outputsheets/d20'))
-
-    into('historical/htmlxml') { with filesToCopy }
-    into('horror/htmlxml') { with filesToCopy }
-    into('sciencefiction/htmlxml') { with filesToCopy }
-    into('western/htmlxml') { with filesToCopy }
-}
-
-/* Delete 'master' outputsheets from different genre folders */
-tasks.register("cleanMasterSheets", Delete) {
-    delete layout.projectDirectory.file("outputsheets/d20/historical/htmlxml/eqsheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/historical/htmlxml/psheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/horror/htmlxml/eqsheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/horror/htmlxml/psheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/sciencefiction/htmlxml/eqsheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/sciencefiction/htmlxml/psheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/western/htmlxml/eqsheet_fantasy_std.htm"),
-            layout.projectDirectory.file("outputsheets/d20/western/htmlxml/psheet_fantasy_std.htm")
-}
-
 /*
  * Dependencies for this project.
  *
@@ -735,10 +708,6 @@ tasks.register("extractJavaFXLocal", Copy) {
     includeEmptyDirs = false
 }
 
-tasks.named("compileJava") {
-    dependsOn copyMasterSheets
-}
-
 tasks.named("jre") {
     dependsOn downloadJRE, downloadJavaFXModules
 }
@@ -976,5 +945,5 @@ tasks.register("allTasks") {
 // you will also need to clean out output/ bin/
 // This task is in the end, because other scripts contribute to the building process
 tasks.named("clean") {
-    dependsOn cleanPlugins, cleanOutput, cleanJre, cleanMods, cleanMasterSheets
+    dependsOn cleanPlugins, cleanOutput, cleanJre, cleanMods
 }

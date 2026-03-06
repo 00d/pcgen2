@@ -136,7 +136,6 @@ tasks.register("testZip", Zip) {
 }
 
 tasks.register("dataZip", Zip) {
-    dependsOn copyMasterSheets
     archiveClassifier.set('data')
     into(zipRootFolder) {
         with dataDistsImage

@@ -1,0 +1,8 @@
+dwarf
+elf
+gnome
+goblin
+halfling
+human
+leshy
+orc

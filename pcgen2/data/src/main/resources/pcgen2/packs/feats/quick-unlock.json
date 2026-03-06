@@ -1,0 +1,1 @@
+{"slug":"quick-unlock","name":"Quick Unlock","level":7,"category":"skill","prerequisites":[{"type":"skill","skill":"thievery","rank":"3"}],"actionType":"passive","actions":null,"maxTakeable":null,"traits":{"value":["general","skill"]},"rules":[],"description":"You can using 1 action instead of 2.","publication":{"license":"ORC","remaster":true,"title":"Pathfinder Player Core"}}
